@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+/* Basic styling */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  color: #FFFFFF; }
+
+ul {
+  list-style-type: none; }
+
+body {
+  background: #FFFFFF;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0; }
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto; }
+
+.hero {
+  background: url("../assets/Bg.png");
+  height: 782px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #FFFFFF; }
+  .hero header {
+    padding: 59px 0 0 0; }
+
+.site-header {
+  display: flex; }
+  .site-header .logo a {
+    display: flex;
+    align-items: center; }
+  .site-header .logo p {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 0 0 0 9px; }
+  .site-header .main-nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left; }
+    .site-header .main-nav--right {
+      display: flex;
+      width: 445px; }
+      .site-header .main-nav--right li {
+        padding: 0 10px 0 7px; }
+
+.hero-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh; }
+  .hero-content .hero-title {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 86px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-style: normal; }
+  .hero-content .hero-paragraph {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 39px 0 56px 0; }
+  .hero-content .btn {
+    display: inline-block;
+    background: #FFFFFF;
+    color: #ED4C5C;
+    width: 160px;
+    height: 50px;
+    left: 640px;
+    top: 545px;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 17px 53px 6px 52px;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 16.8px; }
